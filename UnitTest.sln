@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobAppLib", "JobAppLib\JobAppLib.csproj", "{2470B205-DCD7-4A90-9A76-1152CE123C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobAppLib.UnitTest", "JobAppLib.UnitTest\JobAppLib.UnitTest.csproj", "{AC906492-0087-4167-BDB0-D5910CAB6A94}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2470B205-DCD7-4A90-9A76-1152CE123C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2470B205-DCD7-4A90-9A76-1152CE123C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2470B205-DCD7-4A90-9A76-1152CE123C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2470B205-DCD7-4A90-9A76-1152CE123C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC906492-0087-4167-BDB0-D5910CAB6A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC906492-0087-4167-BDB0-D5910CAB6A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC906492-0087-4167-BDB0-D5910CAB6A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC906492-0087-4167-BDB0-D5910CAB6A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
